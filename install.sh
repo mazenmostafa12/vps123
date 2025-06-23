@@ -13,7 +13,7 @@ echo "[3] Windows Server 2019 Lite"
 read -p "Select Windows version [1-3]: " choice
 
 case "$choice" in
-  1) img_url="https://archive.org/download/win10-lite/win10-lite.qcow2";;
+  1) img_url="https://recolic.net/hms.php?/systems/win10pro-22h2-virtio-uefi.qcow2";;
   2) img_url="https://archive.org/download/win11-lite/win11-lite.qcow2";;
   3) img_url="https://archive.org/download/win2019-lite/win2019-lite.qcow2";;
   *) echo "Invalid choice."; exit 1;;
